@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product preview card component main</title>
+    <style>
+       @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&family=Open+Sans:wght@500&display=swap');
+
+        
+      body {
+        background-color: rgba(243,235,228,255);
+      }
+
+       * {
+            box-sizing: border-box;
+            width: auto; 
+        }
+
+        #container {
+            display: flex;
+            padding: 50px 0;
+            width: 50%;
+            margin: 0 auto;   
+        }
+        
+        #container div {
+            /* border: 1px solid black; */
+            justify-content:center; 
+        }
+        
+
+        img {
+            width: 230px;   
+            height:100%;
+            border-top-left-radius: 6px;
+            border-bottom-left-radius: 6px;
+        }
+        
+        .main {
+            width: 230px;
+            background-color: hsl(0, 0%, 100%);
+            padding-left: 2%;
+            padding-top: 1%;
+            border-top-right-radius: 6px;
+            border-bottom-right-radius: 6px;
+        }
+
+        p {
+            margin: 15px;
+        }
+
+        #name {
+            font-family: 'Montserrat',sans-serif;
+            text-transform: uppercase;
+            font-size: 10px;
+            letter-spacing: 3px;
+            color: #8e909b;  
+        }
+
+       #header {
+            font-family: 'Fraunces', sans-serif;;
+            font-weight: 700;
+            font-size: 26px;
+            padding-bottom:5px;
+            line-height: 25px;
+        }
+
+        #paragraph {
+            font-size: 11px;
+            color: #8b8b93;
+            font-family: 'Montserrat',sans-serif;
+            line-height: 17px;
+            padding-bottom:5px;
+        }
+
+        .price {
+            display: flex;
+            margin-top: 20px;
+        }
+
+        #price1 {
+            color: rgba(69,112,98,255);
+            font-family: 'Fraunces',sans-serif;
+            font-weight: 700;
+            font-size: 25px;
+            padding-left: 10px;
+        }
+
+        #price2 {
+            padding-right: 40%;
+            font-family: 'Montserrat',sans-serif;
+            text-decoration: line-through;
+            color: #8b8b93;
+            font-size: 9px;
+            margin-top: 10px;
+            margin-left: 15px;
+            width: 10%;
+        }
+
+        .button-new {
+            display: flex;
+            justify-content: center;
+            text-decoration: none;
+            border: 1px solid rgba(61,129,102,255); 
+            padding: 11px 30px;
+            width:180px;
+            margin-top: 20px ;
+            margin-left: 14px;
+            margin-right: 40px;
+            background-color: rgba(61,129,102,255);
+            color: white;
+            border-radius: 5px;
+            font-family: 'Montserrat',sans-serif;
+            font-size: 11px;
+            cursor: pointer;
+        }
+
+        .button-new:hover {
+            background-color: rgba(26,64,49,255);
+        }
+
+        #icon {
+            width: 13px;
+            height: 13px;
+            margin-right: 5px;  
+        }
+       
+       
+    </style>
+</head>
+
+
+<body>
+    <div id="container">
+    <div class="image">
+        <img src="image-product-desktop.jpg" alt="image">
+    </div>
+   
+    <div class="main">
+        <p id="name">Perfume</p>
+        <p id="header">Gabrielle Essence Eau De Parfum</p>
+        <p id="paragraph"> A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
+        
+        <div class="price">
+        <div id="price1">$149.99</div>
+        <div id="price2">$169.99</div>
+        </div>
+
+      
+        <a class="button-new" href="#" ><img id="icon" src="icon-cart.svg" alt="icon"> Add to Cart </a>
+        
+        
+
+</div>
+</body>
+</html>
