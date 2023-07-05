@@ -16,4 +16,10 @@ This project showcases a simple product preview card component built using HTML 
 ## How to Use
 [Click here](https://kgogina.github.io/product-preview-card-component/) to open page with the Product Preview Card Component.
 
+## Acknowledgements
+
+Special thanks to [Frontend Mentor](https://www.frontendmentor.io) for providing the task/project that served as the basis for this code.
+
+
+
 
