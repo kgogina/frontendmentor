@@ -18,7 +18,8 @@ This project showcases a simple product preview card component built using HTML 
 
 ## Acknowledgements
 
-Special thanks to [Frontend Mentor](https://www.frontendmentor.io) for providing the task/project that served as the basis for this code.
+Special thanks to [Frontend Mentor](https://www.frontendmentor.io) for providing the task/project that served as the basis for this code. The project was created for learning purposes and does not represent a real company or offer real services. 
+
 
 
 
